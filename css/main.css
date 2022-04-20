@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Source+Sans+Pro:wght@700&display=swap');
+
+:root {
+  --font-title: 'Source Sans Pro', sans-serif;    /* font family for titles */
+  --font-p: 'Dosis', sans-serif;  /* font family for paragraphs */
+  --background: #252850;
+  --color: white;
+}
+
+body {
+  width: 90%;
+  margin: 1% auto;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+  margin: .5rem;
+}
+
+h3 {
+  text-shadow: 5px 5px 10px darkgray;
+}
+
+main {
+  padding-left: 1.5rem;
+  margin: 2% 0;
+}
+
+header, footer {
+  background-color: var(--background);
+  color: var(--color);
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  border-top-left-radius: 20px;
+  box-shadow: 5px 5px 10px darkgray;
+}
+
+main, footer {
+  font-family: var(--font-p);
+}
