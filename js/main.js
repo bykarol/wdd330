@@ -30,11 +30,14 @@ function displayAssignments(listOfAssignments) {
   let listContain = document.getElementById('orderedList');
   for (let i = 0; i < assignments.length; i++){
     let listItem = document.createElement('li');
+    let span1 = document.createElement('span');
     let aTag = document.createElement('a');
-    let aTagSrc = `https://bykarol.github.io/wdd330/${assignments[i].url}`;
-    aTag.setAttribute('href', aTagSrc);
-    aTag.innerHTML = assignments[i].description;
-    listItem.innerHTML = `${assignments[i].label}: ${aTag}`;
+    span1.innerHTML = `${assignments[i].label}: `;
+    aTag.textContent = assignments[i].description;
+    aTag.setAttribute('href', `https://bykarol.github.io/wdd330/${assignments[i].url}`);
+    aTag.setAttribute('target', '_blank');
+    listItem.appendChild(span1);
+    listItem.appendChild(aTag);
     listContain.appendChild(listItem);
   }
 }
