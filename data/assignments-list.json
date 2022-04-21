@@ -2,17 +2,17 @@
   "assignments":
   [
     {
-      "label": "Week1",
-      "description": "Practice - Review Webpage",
+      "label": "Week 1",
+      "description": "Description",
       "url": "week1/week1.html"
     },
     {
-      "label": "Week2",
+      "label": "Week 2",
       "description": "Description",
       "url": "week2/week2.html"
     },
     {
-      "label": "Week3",
+      "label": "Week 3",
       "description": "Description",
       "url": "week3/week3.html"
     }
