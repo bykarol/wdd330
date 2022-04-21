@@ -3,18 +3,18 @@
   [
     {
       "label": "Week1",
-      "description": "Description",
-      "url": "week1/index.html"
+      "description": "Practice - Review Webpage",
+      "url": "week1/week1.html"
     },
     {
       "label": "Week2",
       "description": "Description",
-      "url": "week2/index.html"
+      "url": "week2/week2.html"
     },
     {
       "label": "Week3",
       "description": "Description",
-      "url": "week3/index.html"
+      "url": "week3/week3.html"
     }
   ]
 }
