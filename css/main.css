@@ -36,4 +36,5 @@ header, footer {
 
 main, footer {
   font-family: var(--font-p);
+  font-size: 1.2rem;
 }

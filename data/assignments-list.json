@@ -2,8 +2,19 @@
   "assignments":
   [
     {
-      "label": "Week1 notes",
+      "label": "Week1",
+      "description": "Description",
       "url": "week1/index.html"
+    },
+    {
+      "label": "Week2",
+      "description": "Description",
+      "url": "week2/index.html"
+    },
+    {
+      "label": "Week3",
+      "description": "Description",
+      "url": "week3/index.html"
     }
   ]
 }
