@@ -27,7 +27,7 @@ fetch(requestURL)
 
 function displayAssignments(listOfAssignments) {
   let assignments = listOfAssignments;
-  let listContain = document.getElementById('orderedList');
+  let listContain = document.getElementById('unorderedList');
   for (let i = 0; i < assignments.length; i++){
     let listItem = document.createElement('li');
     let span1 = document.createElement('span');
