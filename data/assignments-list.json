@@ -3,13 +3,13 @@
   [
     {
       "label": "Week 1",
-      "description": "Description",
-      "url": "week1/week1.html"
+      "description": "Rainbow",
+      "url": "week1/rainbow.html"
     },
     {
       "label": "Week 2",
-      "description": "Description",
-      "url": "week2/week2.html"
+      "description": "Ninja Quiz",
+      "url": "week2/ninjaQuiz.html"
     },
     {
       "label": "Week 3",
