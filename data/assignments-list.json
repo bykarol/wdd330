@@ -8,13 +8,13 @@
     },
     {
       "label": "Week 2",
-      "description": "Ninja Quiz",
+      "description": "Ninja Quiz Arrays",
       "url": "week2/ninjaQuiz.html"
     },
     {
       "label": "Week 3",
-      "description": "Description",
-      "url": "week3/week3.html"
+      "description": "Ninja Quiz - objects and events",
+      "url": "week3/ninjaQuiz.html"
     }
   ]
 }
