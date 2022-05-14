@@ -15,6 +15,11 @@
       "label": "Week 3",
       "description": "Ninja Quiz - objects and events",
       "url": "week3/ninjaQuiz.html"
+    },
+    {
+      "label": "Week 4",
+      "description": "Ninja Quiz - Forms",
+      "url": "week4/ninjaQuiz.html"
     }
   ]
 }
