@@ -20,6 +20,11 @@
       "label": "Week 4",
       "description": "Ninja Quiz - Forms, OOP and Modern JS.",
       "url": "week4/ninjaQuiz.html"
+    },
+    {
+      "label": "Week 4 version 2",
+      "description": "Ninja Quiz - Object Oriented Programming.",
+      "url": "week4v2/ninjaQuiz.html"
     }
   ]
 }
