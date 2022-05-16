@@ -86,5 +86,5 @@ const game = {
 game.start(quiz);
 view.start.addEventListener('click', () => game.start(quiz), false);
 view.response.addEventListener('submit', (event) => game.check(event), false);
-view.hide(view.response);
+//view.hide(view.response);
 
