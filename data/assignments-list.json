@@ -25,6 +25,11 @@
       "label": "Week 4 version 2",
       "description": "Ninja Quiz - Object Oriented Programming.",
       "url": "week4v2/ninjaQuiz.html"
+    },
+    {
+      "label": "Week 4 version 3",
+      "description": "Ninja Quiz - Modern JavaScript (modular architecture)",
+      "url": "week4v3/ninjaQuiz.html"
     }
   ]
 }

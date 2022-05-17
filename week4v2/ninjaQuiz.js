@@ -6,7 +6,8 @@ const quiz = [
     { name: "Spider-man",realName: "Peter Parker" },
     { name: "Cyclops",realName: "Scott Summers" },
     { name: "Wolverine",realName: "James Logan" },
-    { name: "Black Panther",realName: "T'Challa" }
+    { name: "Black Panther",realName: "T'Challa" },
+    { name: "Aquaman",realName: "Arthur Curry" }
 ];
 
 function random(a,b=1) {
