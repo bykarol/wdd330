@@ -30,6 +30,11 @@
       "label": "Week 4 version 3",
       "description": "Ninja Quiz - Modern JavaScript (modular architecture)",
       "url": "week4v3/ninjaQuiz.html"
+    },
+    {
+      "label": "Week 5",
+      "description": "To Do Tracking App",
+      "url": "week5/list.html"
     }
   ]
 }
