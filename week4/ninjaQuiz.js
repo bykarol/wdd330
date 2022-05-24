@@ -48,12 +48,14 @@ const view = {
 // Game Object
 const game = {
     start(quiz){
+        console.log('start() invoked');
         this.score = 0;
         this.questions = [...quiz];
         view.setup();
         this.ask();
     },
     ask(name){
+        console.log('ask() invoked');
         if(this.questions.length > 0) {
             this.question = this.questions.pop();
             const question = `What is ${this.question.name}'s real name?`;
@@ -64,6 +66,7 @@ const game = {
         }
     },
     check(event){
+        console.log('check(event) invoked');
         event.preventDefault();
         const response = view.response.answer.value;
         const answer = this.question.realName;
@@ -78,6 +81,7 @@ const game = {
         this.ask();
     },
     gameOver(){
+        console.log('gameOver() invoked');
         view.render(view.info,`Game Over, you scored ${this.score} point${this.score !== 1 ? 's' : ''}`);
         view.teardown();
     }
