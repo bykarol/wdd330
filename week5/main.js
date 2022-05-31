@@ -19,7 +19,7 @@ const controller = {
   add(name) {
       const item = new Item(name);
       view.render(item);
-  }
+  },
 };
 
 const view = {
@@ -30,6 +30,14 @@ const view = {
       list.appendChild(li);
       // reset the input field
       form.name.value = '';
+      this.taskDone(list);
+  },
+  
+  taskDone(list) {
+      console.log('Task Done invoked');
+      list.addEventListener('click', (event) => {
+        event.target.classList.toggle('done');
+      });
   }
 };
 
